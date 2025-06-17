@@ -1,0 +1,11 @@
+1) Introduction to computer security:
+	a) Per indicare il Threat, usa nomi del tipo "DoS", "Device hijacking", "Data loss", "Data interception".
+3) BufferOverflow:
+	a) Se l'exploit NON c'entra nel buffer, potresti metterlo SOPRA il saved EIP.
+	b) Tramite delle iterazioni, potresti eseguire il BO / FS a PEZZI.
+	Confronta con luglio 2024.
+	c) Disegna lo stack "before" e "after" e in ogni cella metti nome della variabile e contenuto.
+4) Web:
+	a) Fai attenzione a GET / POST. By default, navigating to a URL (e.g. clicking an <a href> link or pasting a URL in the address bar) 	issues an HTTP GET. Browsers use GET for normal page loads.
+	b) Puoi triggerare codice anche con <p onload="alert(...)">My paragraph</p>
+	c) Fai attenzione alle blind SQL injections.
